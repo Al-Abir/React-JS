@@ -13,6 +13,26 @@
 ১. ভ্যানিলা জাভাস্ক্রিপ্ট উদাহরণ
 ভ্যানিলা জাভাস্ক্রিপ্টে, আমরা ডম (DOM) সরাসরি ম্যানিপুলেট করে বাটন ক্লিক হ্যান্ডেল করবো এবং সংখ্যা আপডেট করবো।
 ব্যাখ্যা:
+HTML code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS Counter</title>
+</head>
+<body>
+    <div id="counter-app">
+        <h1>Counter: <span id="counter-value">0</span></h1>
+        <button id="increment-btn">Increment</button>
+        <button id="decrement-btn">Decrement</button>
+    </div>
+
+    <script src="counter.js"></script>
+</body>
+</html>
+
+//JavaScript Code
 
 let counter = 0;
 
