@@ -9,3 +9,5 @@ onclick                              onClick
 tabidex                             tabIndex
 
 ${ }                                 { }
+
+onclick = "abir()"                 onclick={abir}
