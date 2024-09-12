@@ -9,6 +9,16 @@ export default function Users(){
         .then(data => setUsers(data))
     }, [])
 
+    //=============== Using async await ==============
+    // useEffect(() => {
+    //     const fetchUsers = async () => {
+    //       const response = await fetch('https://jsonplaceholder.typicode.com/users');
+    //       const data = await response.json();
+    //       setUsers(data);
+    //     };
+    
+    //     fetchUsers();
+    //   }, []);
     return (
         <div>
             <h3>Users: {users.length}</h3>
